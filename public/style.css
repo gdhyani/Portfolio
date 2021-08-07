@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+body{
+    background-color: #EFEFEF;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    margin-left:66px;
+    padding-top:100px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Navbar */
+
+.navbar{
+    height:100%;
+    background-color:black;
+    padding:0px 15px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    justify-content: space-between;
+}
+.top_nav{
+    padding:30px 0px;
+    display:flex;
+    flex-direction: column;
+}
+.bottom_nav{
+    padding:30px 0px;
+    display:flex;
+    flex-direction: column;
+}
+.navbar i{
+    margin:10px 0px;
+    color:white;
+}
+
+/* Brand Row*/
+
+.brand h1{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top:30px;
+    left:110px;
+}
+
+/* Home*/
+
+#Home{
+    padding-right:20px;
+    margin-left:45px;
+    height: 100vh;
+}
+.intro{
+    margin-top: 90px;
+    letter-spacing: 1.5px;
+}
+.intro h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.svg1{
+    width:600px;
+}
+.message{
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* About s#183153*/
+
+.about{
+    padding-right:20px;
+    margin-left:45px;
+    margin-bottom:100px;
+    height:max-content;
+    padding-top: 90px;
+    background-image: url(images/background.svg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1000px;
+    background-position: center;
+    margin-bottom:50px;
+}
+.pageHeading{
+    font-weight: 700;
+    font-size:50px;
+}
+.skills{
+    padding:50px 0px;
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.skill_box{
+    display: flex;
+    padding:30px;
+    font-size:75px;
+    border:3px solid black;
+    width:100px;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin:40px;
+    background-color:#efefef ;
+}
+.skill_box:hover{
+    transition: all .25s linear;
+    transform: scale(1.5);
+}
+
+/* Contact */
+
+.contact{
+    margin-left:45px;
+}
+.contact_form{
+    height:50vh;
+    padding:90px 0px 30px 0px;
+    background-image: url(images/CON_background_grey.svg);
+    background-attachment: fixed;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+input{
+    border:2px solid black;
+    border-radius: 4px;
+    width:300px;
+    padding:6px 15px;
+    font-size:15px;
+    font-weight: bolder;
+    margin: 20px;
+}
+textarea{
+    border:2px solid black;
+    outline:none;
+    margin:20px;
+    width:690px;  
+    padding:6px 10px; 
+    border-radius: 4px;;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:4px 7px;
+    border-radius: 4px;
+	border: 2px  solid black;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-top: 30px;;
+}
+button:hover{
+    background-color: lightgrey;
+    color:black;
+}
+.footer{
+    background-color: black;
+    color:white;
+    padding:5px;
+    position:relative;
+    bottom: 0px;
+    width:100%;
+    margin:0px -10px;
+    text-align: center;
+}
+
+/* Projects */
+
+.project{
+    padding:45px;
+    padding-top: 90px;
+    height: max-content ;
+    background-image: url(images/PRO_background.svg);
+    background-attachment: fixed;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;;
+}
+.prolist{
+    padding:50px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.probox{
+    margin:30px auto;
+    height:200px;
+    width:600px;
+    padding:10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #EFEFEF;
+}
+.probox:hover{
+    transform: scale(1.5);
+    transition: all 0.25s linear;
+}
+.proimg{
+    height:199px;
+    width:300px;
+    border-radius: 15px;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+
+
