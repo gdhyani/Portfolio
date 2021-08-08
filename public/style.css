@@ -63,7 +63,7 @@ a{
 #Home{
     padding-right:20px;
     margin-left:45px;
-    height: 100vh;
+    height: max-content;
 }
 .intro{
     margin-top: 90px;
